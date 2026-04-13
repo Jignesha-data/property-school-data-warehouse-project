@@ -1,12 +1,13 @@
-📊 Property & School Data Warehouse & Analytics Project
+**📊 Property & School Data Warehouse & Analytics Project**
 
-🔹 Overview
+**🔹 Overview**
+
 This project demonstrates the design and implementation of an end-to-end Data Warehouse and Business Intelligence solution using Australian datasets such as Property, Schools, Location, Transport, and Crime data.
 
 The project covers the complete pipeline:
 Data Extraction → Transformation → Data Warehouse → Reporting → Dashboard Visualization
 
-🔹 Tools & Technologies
+**🔹 Tools & Technologies**
 - SQL Server (T-SQL)
 - SSIS (ETL – Extract, Transform, Load)
 - SSRS (Reporting)
@@ -15,7 +16,7 @@ Data Extraction → Transformation → Data Warehouse → Reporting → Dashboar
 - Dimensional Modeling (Star Schema)
 
 
-🔹 Project Architecture
+**🔹 Project Architecture**
 
 - Extract data from CSV/Excel files
 - Transform data using SSIS
@@ -25,7 +26,7 @@ Data Extraction → Transformation → Data Warehouse → Reporting → Dashboar
 - Create Power BI dashboards
 
 
-🔹 Data Warehouse Design
+**🔹 Data Warehouse Design**
 
 Dimension Tables
 - DimDate
@@ -39,7 +40,7 @@ Fact Tables
 
 
 
-🔹 ETL Process (SSIS)
+**🔹 ETL Process (SSIS)**
 - Extracted data from multiple datasets
 - Cleaned data (null handling, duplicates, data types)
 - Transformed and loaded into staging and warehouse tables
@@ -47,14 +48,14 @@ Fact Tables
 
 
 
-🔹 SQL Analysis
+**🔹 SQL Analysis**
 - Calculated average property values by suburb and postcode
 - Analyzed school distribution by location
 - Used joins, aggregations, and filtering for insights
 
 
 
-🔹 Reporting (SSRS)
+**🔹 Reporting (SSRS)**
 - Created parameterized reports:
   - State
   - City
@@ -63,12 +64,21 @@ Fact Tables
 - Displayed property values and school details dynamically
 
 
- 🔹 Power BI Dashboard
+**🔹 Power BI Dashboard**
 - Interactive dashboards with:
   - Map visuals (Latitude & Longitude)
   - Slicers (State, City, Suburb)
   - KPI cards and charts
 - Drill-through functionality for detailed insights
 - Integration with SSRS report links
+
+
+**Key Skills Demonstrated**
+
+* Data Cleaning & Transformation (SSIS)
+* Data Modeling (Star Schema)
+* SQL Querying & Analysis
+* Data Visualization (Power BI)
+* Report Building (SSRS)
 
 
